@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/display_data.js"></script>
+    <script src="js/myscript.js"></script>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <div class="a1">Add student form</div>
+    <form id="studentForm">
+        <div class="a2">
+            <label>First Name</label>
+            <input type="text" id="firstName" class="form-control" required />
+        </div>
+        <div class="a2">
+            <label>Last Name</label>
+            <input type="text" id="lastName" class="form-control" required />
+            <div class="a2">
+                <label>Email</label>
+                <input type="email" id="email" class="form-control" required />
+            </div>
+            <div class="a2">
+                <label>Phone Number</label>
+                <input type="tel" id="contactNo" class="form-control" required />
+            </div>
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg" id="btnAddStudent" type="button">
+                    Add student
+                </button>
+                
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
